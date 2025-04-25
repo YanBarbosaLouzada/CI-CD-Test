@@ -1,0 +1,33 @@
+{
+    "iceCreams": [
+        {
+            "id": 1,
+            "name": "Chocolate Supreme",
+            "img": "https://veganoporquesim.com.br/wp-content/uploads/2022/07/Sorvete-de-Chocolate-Vegano.webp",
+            "flavors": [
+                "Chocolate",
+                "Cacau Intenso"
+            ],
+            "rating": 4.8
+        },
+        {
+            "id": 2,
+            "name": "Morango Delicado",
+            "img": "https://minhasreceitinhas.com.br/wp-content/uploads/2023/07/343928757_999673617877719_7360491533481920826_n-e1690824131669.jpg",
+            "flavors": [
+                "Morango",
+                "Creme"
+            ],
+            "rating": 4.6
+        },
+        {
+            "id": 3,
+            "name": "Baunilha Clássica",
+            "img": "https://www.mundoboaforma.com.br/wp-content/uploads/2022/07/Sorvete-vegano-de-baunilha-500x375.jpg",
+            "flavors": [
+                "Baunilha"
+            ],
+            "rating": 4.7
+        }
+    ]
+}

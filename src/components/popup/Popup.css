@@ -1,0 +1,31 @@
+.popup{
+    position: fixed;
+    bottom: 5rem; 
+    right: 5rem;
+    width: 28rem;
+    height: 12rem;
+    border-radius: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    color:white;
+    animation: showPopup 2s ease-in-out;
+    padding: 1rem;
+}
+
+@keyframes showPopup{
+    0% {
+        right: -36rem;
+    }
+    80%{
+        right: 10rem;
+    }
+    100%{
+        right: 5rem;
+    }
+}
+
+.warning{background-color: red;}
+.success{background-color: green;}
