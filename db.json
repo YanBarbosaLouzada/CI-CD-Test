@@ -8,7 +8,7 @@
                 "Chocolate",
                 "Cacau Intenso"
             ],
-            "rating": 4.8
+            "price": 4.8
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@
                 "Morango",
                 "Creme"
             ],
-            "rating": 4.6
+            "price": 4.6
         },
         {
             "id": 3,
@@ -27,7 +27,7 @@
             "flavors": [
                 "Baunilha"
             ],
-            "rating": 4.7
+            "price": 4.7
         }
     ]
 }

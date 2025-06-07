@@ -17,3 +17,7 @@ npm run dev
 
 ## Terminal 2:
 json-server --watch db.json
+
+npm i react-redux
+npm i @reduxjs/toolkit
+npm i redux

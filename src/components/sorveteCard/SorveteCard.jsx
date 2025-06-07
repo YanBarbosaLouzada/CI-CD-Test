@@ -5,9 +5,17 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 import Button from "@mui/material/Button";
+
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart } from "../../redux/slices/cart/cartSlice";
+
 import "./SorveteCard.css";
 
 export default function SorveteCard(sorvete) {
+
+  const cart = useSelector((state) => state.cart.cartItems);
+  const dispatch = useDispatch();
+
   return (
     <Card
       sx={{
@@ -24,7 +32,7 @@ export default function SorveteCard(sorvete) {
           height="200"
           image={sorvete.img}
           alt={sorvete.name}
-          sx={{ borderRadius: "10px 10px 0 0" }}
+          sx={{ borderRadius: "1rem 1rem 0 0" }}
         />
         <CardContent>
           <Typography variant="h6" sx={{ fontWeight: "bold" }}>
@@ -34,7 +42,7 @@ export default function SorveteCard(sorvete) {
             {sorvete.flavors.join(", ")}
           </Typography>
           <Typography variant="h6" color="primary" sx={{ mt: 1 }}>
-            ⭐ {sorvete.rating}
+            💵 R$ {sorvete.price.toFixed(2)}
           </Typography>
           <Button
             variant="contained"

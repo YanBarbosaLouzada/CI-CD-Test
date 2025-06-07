@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
+import "./Layout.css";
 
-function Layout() {
+function Layout() {  
   return (
     <div>
-      <Navbar></Navbar>
-      {/* Outlet é o conteudo principal da nossa pagina */}
-      <Outlet></Outlet>
+      <section className="nav"><Navbar /></section>
+      <section><Outlet /></section>
+      
+
+
     </div>
   );
 }

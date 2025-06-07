@@ -1,0 +1,56 @@
+.noteContainer {
+    background: linear-gradient(135deg, #089c9c, #0acfcf);
+    width: 100%;
+    max-width: 420px;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 16px auto;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.noteContainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.trash,
+.edit {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.trash:hover,
+.edit:hover {
+    opacity: 1;
+}
+
+.trash {
+    right: 12px;
+}
+
+.edit {
+    right: 44px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    word-break: break-word;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #e0f7fa;
+    opacity: 0.9;
+}
