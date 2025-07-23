@@ -3,10 +3,11 @@ name: First pipeline CICD
 on:
   push: 
     branches: 
-      -main
+      - main
 
 jobs:
-  build: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -21,4 +22,3 @@ jobs:
         run: npm run build
       - name: Run tests
         run: npm run test
-      
