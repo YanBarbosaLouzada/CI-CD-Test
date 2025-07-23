@@ -7,7 +7,7 @@ const Dashboard = () => {
     const dispatch = useDispatch();
 
     return (
-        <div className="p-4">
+        <div className="p-4 ">
             <h2 className="text-xl font-bold">Bem-vindo, {user.username}!</h2>
             <button
                 onClick={() => dispatch(logout())}
