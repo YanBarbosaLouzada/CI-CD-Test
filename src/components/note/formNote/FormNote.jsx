@@ -28,31 +28,32 @@ function FormNote() {
 
     return (
         <aside className="aside-notes">
+            <h2>Adicione seu comentário sobre o site aqui</h2>
             <form id="formNote" onSubmit={SendNote}>
                 <label htmlFor="titleNote" className="margin-form">
                     {" "}
-                    Título
+                    Seu nome
                 </label>
                 <input
                     type="text"
                     value={note.title}
                     onChange={(e) => setNote({ ...note, title: e.target.value })}
                     id="titleNote"
-                    placeholder="Título"
+                    placeholder="seu nome"
                 />
                 <label htmlFor="descriptionNote" className="margin-form">
                     {" "}
-                    Descrição
+                    Seu comentário
                 </label>
                 <input
                     type="text"
                     value={note.description}
                     onChange={(e) => setNote({ ...note, description: e.target.value })}
                     id="descriptionNote"
-                    placeholder="Descrição"
+                    placeholder="seu comentário"
                 />
                 <button type="submit" id="buttonForm" className="margin-form">
-                    {isEditing ? "Editar Anotação" : "Adicionar anotação"}
+                    {isEditing ? "Editar Comentário" : "Adicionar Comentário"}
                 </button>
             </form>
         </aside>

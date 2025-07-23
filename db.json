@@ -29,5 +29,27 @@
             ],
             "price": 4.7
         }
+    ],
+    "doidos":[
+        {
+            "id": 1,
+            "name": "Doido de Chocolate",
+            "img": "https://www.receitasdecomidas.com.br/wp-content/uploads/2023/01/doido-de-chocolate-500x375.jpg",
+            "flavors": [
+                "Chocolate",
+                "Amendoim"
+            ],
+            "price": 5.0
+        },
+        {
+            "id": 2,
+            "name": "Doido de Morango",
+            "img": "https://www.receitasdecomidas.com.br/wp-content/uploads/2023/01/doido-de-morango-500x375.jpg",
+            "flavors": [
+                "Morango",
+                "Creme"
+            ],
+            "price": 5.2
+        }
     ]
 }

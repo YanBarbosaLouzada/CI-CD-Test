@@ -8,7 +8,7 @@ import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 
-function Info() {
+function InfoCopy() {
   const [sorveteNome, setSorveteNome] = useState("");
   const [sorveteDigitado, setSorveteDigitado] = useState("");
   const { sorveteData, loading, error } = useGetAPIDATA(sorveteNome);
@@ -106,4 +106,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default InfoCopy;

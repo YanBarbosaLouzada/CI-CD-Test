@@ -1,0 +1,22 @@
+.mainProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:aqua ;
+}
+
+.setInput {
+    margin-bottom: 20px;
+}
+
+.sorvetes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 20px;
+}

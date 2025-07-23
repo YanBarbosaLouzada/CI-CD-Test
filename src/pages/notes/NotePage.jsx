@@ -8,8 +8,9 @@ function NotePage() {
     return (
         <NoteProvider>
             <div className='notesPageContainer'>
-                <FormNote /> {/* Componente para adicionar uma nova nota */}
-                <AllNotes /> {/* Componente para listar todas as notas */}
+                <div className='a'><FormNote /></div>{/* Componente para adicionar uma nova nota */}
+                <div className='b'><AllNotes /></div>{/* Componente para listar todas as notas */}
+                 
             </div>
         </NoteProvider>
 
