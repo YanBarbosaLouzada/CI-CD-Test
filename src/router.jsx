@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Info from "./pages/infoPage/Info";
 import Layout from "./pages/Layout";
 import NotePage from "./pages/notes/NotePage";
-import LoginPage from "./pages/login/loginPage";
+import LoginPage from "./pages/login/LoginPage";
 
 export const router = createBrowserRouter([
     {
