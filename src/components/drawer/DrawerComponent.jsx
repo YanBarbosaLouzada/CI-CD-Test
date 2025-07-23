@@ -17,6 +17,7 @@ export default function DrawerComponent({ open, onClose }) {
     const cart = useSelector((state) => state.cart.cartItems);
     const dispatch = useDispatch();
 
+
     // total baseado no rating como se fosse preço
     const total = cart.reduce((sum, item) => sum + item.price, 0);
 
