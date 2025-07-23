@@ -1,3 +1,4 @@
+import React from 'react';
 import { createContext, useState } from "react";
 import { generateRandomId } from "../../helpers/generateRandomId";
 import { mockNotes } from "../../mock/mockNotes";
@@ -21,7 +22,7 @@ const NoteProvider = ({ children }) => {
     const deleteNote = (id) => {
         setNotes(notes.filter((note) => note.id !== id));
     };
-    
+
     const editNote = (id) => {
         setNotes(
             notes.map((n) => {
